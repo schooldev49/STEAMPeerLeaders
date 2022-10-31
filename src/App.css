@@ -1,0 +1,88 @@
+.App {
+  height: 100%;
+  text-align: center;
+}
+body {
+  background: radial-gradient(circle,#2372c9 0,#0940b4 100%);
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+}
+html, body, #root {
+  height: 100%;
+}
+.login {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.imgL {
+  height: 5vw;
+  width: 5vw;
+  margin-top: 2vw;
+}
+.loginTitle{
+  color: white;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+.loginButton {
+  border-radius: 7px;
+  color: white;
+  border: none;
+  padding: 1vw;
+  background: rgb(38 35 35 / 50%);
+  cursor: pointer;
+}
+.loginErr {
+  color: #ff4949;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.loginContainer {
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    background: rgba(0,0,0,.2);
+    align-items: center;
+    height: 50%;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 24%);
+}
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
