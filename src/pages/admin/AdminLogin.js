@@ -5,6 +5,8 @@ import {useNavigate, Link} from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth, signInWithGoogle } from '../../firebase';
 import '../../App.css';
+import Navbar from '../../components/nav/Navbar';
+
 import { prodErrorMap } from 'firebase/auth';
 /*
 const Defaults = {
@@ -40,6 +42,8 @@ const AdminLogin = () => {
 
     return (
         <div className="App">
+            <Navbar/>
+
             <div className="login">
                 <div className="loginContainer">
                     <img src='https://google.com/favicon.ico' className='imgL'/>
