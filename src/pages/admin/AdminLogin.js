@@ -46,9 +46,11 @@ const AdminLogin = () => {
 
             <div className="login">
                 <div className="loginContainer">
-                    <img src='https://google.com/favicon.ico' className='imgL'/>
                     <h1 className="loginTitle">Admin Login</h1>
-                    <button className="loginButton" onClick={signInWithGoogle}>Login With Google</button>
+                    <button className="loginButton" onClick={signInWithGoogle}>
+                        <img src='https://google.com/favicon.ico' className='imgL'/>
+                        <h1 style={{fontSize: '1em', margin: 'auto'}}>Login with Google</h1>
+                    </button>
                     <h1 ref={errorEle} className="loginErr"></h1>
                 </div>
 
