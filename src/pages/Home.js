@@ -13,6 +13,10 @@ const Home = () => {
           </div>
           <img className='mainImage' src={img}/>
         </div>
+        <div className="whatsnew container" style={{marginTop: '3vw'}}>
+            <h2 style={{fontWeight: 200, fontSize: '1em'}}>Whats New This Month</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=AGENDA&src=Y180MTI4NjBhNjg4NDE3ODI1NTc5MDM5ZTA0MWM4OWU3N2FhOGRlMjhmYTU1NDdmM2U3MmQ2YzQ3YjA4MGUwNjM1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23C0CA33" className = "iframe" width="100%" height="500vw" frameborder="0" scrolling="no"/>
+        </div>
         </div>
     )
 }
