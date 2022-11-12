@@ -7,8 +7,8 @@ const NotFound = () => {
         <>
             <div className="App">
                 <Navbar/>
-                <h1>404 - Not Found</h1>
-                <h2>Go <Link to="/">home</Link></h2>
+                <h1 className="nf">404 - Not Found. <br/>Go <Link to='/'>Home</Link></h1>
+                
             </div>
 
         </>

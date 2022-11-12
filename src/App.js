@@ -32,6 +32,7 @@ const App = () => {
         <Route path='/' index element={<Home/>}/>
         <Route path='/aboutus/' element={<AboutUs/>}/>
         <Route path='/monthlychallenge/' element={<Monthly/>}/>
+        <Route path='/monthlychallenge/*' element={<Monthly/>}/>
         <Route path='/admin/' element={user ? <AdminPage user={user}/> : <AdminLogin/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Route>
