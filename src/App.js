@@ -6,6 +6,7 @@ import AboutUs from './pages/AboutUs';
 import Monthly from './pages/monthlychallenge/Monthly';
 import AdminPage from './pages/admin/AdminPage';
 import AdminLogin from './pages/admin/AdminLogin';
+import MonthlyChallenge from './pages/monthlychallenge/MonthlyChallenge';
 import Layout from './components/Layout';
 
 // IMPORT REACT ROUTER DOM
@@ -32,7 +33,7 @@ const App = () => {
         <Route path='/' index element={<Home/>}/>
         <Route path='/aboutus/' element={<AboutUs/>}/>
         <Route path='/monthlychallenge/' element={<Monthly/>}/>
-        <Route path='/monthlychallenge/*' element={<Monthly/>}/>
+        <Route path='/monthlychallenge/:challengeName/' element={<MonthlyChallenge/>}/>
         <Route path='/admin/' element={user ? <AdminPage user={user}/> : <AdminLogin/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Route>
